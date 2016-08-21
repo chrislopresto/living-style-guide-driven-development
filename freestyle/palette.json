@@ -1,0 +1,28 @@
+{
+  "FreestylePalette": {
+    "primary": {
+      "name": "cyan",
+      "base": "#00BCD4",
+      "light": "#B2EBF2",
+      "dark": "#0097A7"
+    },
+    "accent": {
+      "name": "amber",
+      "base": "#FFC107"
+    },
+    "secondary": {
+      "name": "gray",
+      "base": "#727272",
+      "light": "#B6B6B6"
+    },
+    "foreground": {
+      "name": "dark gray",
+      "base": "#212121"
+    },
+    "background": {
+      "name": "white-ish",
+      "base": "#ffffff",
+      "dark": "#eeeeee"
+    }
+  }
+}

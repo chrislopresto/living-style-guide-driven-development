@@ -1,0 +1,13 @@
+pre {
+  code {
+    background: $code-background;
+    color: $code-color;
+    display: block;
+    overflow-x: auto;
+    padding: .5em;
+  }
+}
+
+.hljs-reserved {
+  color: $code-js-reserved;
+}
