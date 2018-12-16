@@ -131,7 +131,7 @@ export default Ember.Component.extend({
       "output": "Switzerland"
     },
     "artwork_creation": "1953",
-    "artwork_descriptive_notes": "Calibre: Automatic, 9 3/4'''",
+    "artwork_descriptive--notes": "Calibre: Automatic, 9 3/4'''",
     "estimate_low_usd": null,
     "created_at": "2016-01-05T17:01:21.243+00:00",
     "artist_birth_date": 0,
@@ -276,7 +276,7 @@ export default Ember.Component.extend({
       "output": "null"
     },
     "artwork_creation": "0",
-    "artwork_descriptive_notes": "certificate included from Cyrille Martin",
+    "artwork_descriptive--notes": "certificate included from Cyrille Martin",
     "estimate_low_usd": 13827.0,
     "created_at": "2014-11-01T20:02:59.737+00:00",
     "artist_birth_date": 1860,
@@ -421,7 +421,7 @@ export default Ember.Component.extend({
       "output": "Hong Kong"
     },
     "artwork_creation": "16 bottles per lot",
-    "artwork_descriptive_notes": "NULL",
+    "artwork_descriptive--notes": "NULL",
     "estimate_low_usd": 930102.78,
     "created_at": "2015-09-09T18:15:33.800+00:00",
     "artist_birth_date": 0,
@@ -549,7 +549,7 @@ export default Ember.Component.extend({
       "output": "France"
     },
     "artwork_creation": null,
-    "artwork_descriptive_notes": "",
+    "artwork_descriptive--notes": "",
     "estimate_low_usd": 1697218.5,
     "created_at": "2015-11-09T02:35:10.223+00:00",
     "artist_birth_date": null,
