@@ -16,13 +16,13 @@
     display: inline-block;
     position: relative;
     top: 2px;
-    background-image: url(/images/presentations/living-style-guide-driven-development/auction-search-result/gavel-sprite.png);
+    background-image: url(/assets/images/presentations/living-style-guide-driven-development/auction-search-result/gavel-sprite.png);
     background-repeat: no-repeat;
     @include mappy-bp(wide) {
       display: inline-block;
     }
     @media only screen and (-webkit-min-device-pixel-ratio: 2), not all {
-      background-image: url(/images/presentations/living-style-guide-driven-development/auction-search-result/gavel-sprite@2x.png);
+      background-image: url(/assets/images/presentations/living-style-guide-driven-development/auction-search-result/gavel-sprite@2x.png);
       background-repeat: no-repeat;
       background-size: 150px 1400px;
     }
@@ -282,7 +282,7 @@ $Collectrium-ColorPalette-opacities: (
           display: none;
           width: 37px !important;
           height: 37px !important;
-          background-image: url(/images/presentations/living-style-guide-driven-development/auction-search-result/gavel-sprite.png);
+          background-image: url(/assets/images/presentations/living-style-guide-driven-development/auction-search-result/gavel-sprite.png);
           background-repeat: no-repeat;
           background-position: -57px -1357px;
           z-index: z(below);
@@ -290,7 +290,7 @@ $Collectrium-ColorPalette-opacities: (
             display: block;
           }
           @media only screen and (-webkit-min-device-pixel-ratio: 2), not all {
-            background-image: url(/images/presentations/living-style-guide-driven-development/auction-search-result/gavel-sprite@2x.png);
+            background-image: url(/assets/images/presentations/living-style-guide-driven-development/auction-search-result/gavel-sprite@2x.png);
             background-repeat: no-repeat;
             background-position: -57px -1357px;
             background-size: 150px 1400px;
@@ -386,9 +386,9 @@ $Collectrium-ColorPalette-opacities: (
       height: 50px !important;
       position: absolute;
       transform: translate(-50%, -50%);
-      background: url(/images/presentations/living-style-guide-driven-development/auction-search-result/gavel-sprite.png) -50px -400px no-repeat;
+      background: url(/assets/images/presentations/living-style-guide-driven-development/auction-search-result/gavel-sprite.png) -50px -400px no-repeat;
       @media only screen and (-webkit-min-device-pixel-ratio: 2), not all {
-          background: url(/images/presentations/living-style-guide-driven-development/auction-search-result/gavel-sprite@2x.png) -50px -400px no-repeat;
+          background: url(/assets/images/presentations/living-style-guide-driven-development/auction-search-result/gavel-sprite@2x.png) -50px -400px no-repeat;
           background-size: 150px 1400px;
       }
     }
@@ -539,44 +539,44 @@ $Collectrium-ColorPalette-opacities: (
     z-index: z(default);
   }
   &-catFurniture {
-  background: url(/images/presentations/living-style-guide-driven-development/auction-search-result/category-icons/furniture.png) collectrium-palette-color('background') right bottom no-repeat;
+  background: url(/assets/images/presentations/living-style-guide-driven-development/auction-search-result/category-icons/furniture.png) collectrium-palette-color('background') right bottom no-repeat;
     @media only screen and (-webkit-min-device-pixel-ratio: 2), not all {
-      background: url(/images/presentations/living-style-guide-driven-development/auction-search-result/category-icons/furniture@2x.png) collectrium-palette-color('background') right bottom o-repeat;
+      background: url(/assets/images/presentations/living-style-guide-driven-development/auction-search-result/category-icons/furniture@2x.png) collectrium-palette-color('background') right bottom o-repeat;
         background-size: 141px 195px;
     }
   }
   &-catJewerly {
-  background: url(/images/presentations/living-style-guide-driven-development/auction-search-result/category-icons/Jewerly.png) collectrium-palette-color('background') right bottom no-repeat;
+  background: url(/assets/images/presentations/living-style-guide-driven-development/auction-search-result/category-icons/Jewerly.png) collectrium-palette-color('background') right bottom no-repeat;
     @media only screen and (-webkit-min-device-pixel-ratio: 2), not all {
-      background: url(/images/presentations/living-style-guide-driven-development/auction-search-result/category-icons/Jewerly@2x.png) collectrium-palette-color('background') right bottom no-repeat;
+      background: url(/assets/images/presentations/living-style-guide-driven-development/auction-search-result/category-icons/Jewerly@2x.png) collectrium-palette-color('background') right bottom no-repeat;
         background-size: 195px 187px;
     }
   }
   &-catPictures {
-  background: url(/images/presentations/living-style-guide-driven-development/auction-search-result/category-icons/Pictures.png) collectrium-palette-color('background') right bottom no-repeat;
+  background: url(/assets/images/presentations/living-style-guide-driven-development/auction-search-result/category-icons/Pictures.png) collectrium-palette-color('background') right bottom no-repeat;
     @media only screen and (-webkit-min-device-pixel-ratio: 2), not all {
-      background: url(/images/presentations/living-style-guide-driven-development/auction-search-result/category-icons/Pictures@2x.png) collectrium-palette-color('background') right bottom no-repeat;
+      background: url(/assets/images/presentations/living-style-guide-driven-development/auction-search-result/category-icons/Pictures@2x.png) collectrium-palette-color('background') right bottom no-repeat;
         background-size: 152px 171px;
     }
   }
   &-catTransportation {
-  background: url(/images/presentations/living-style-guide-driven-development/auction-search-result/category-icons/Transportation.png) collectrium-palette-color('background') right bottom no-repeat;
+  background: url(/assets/images/presentations/living-style-guide-driven-development/auction-search-result/category-icons/Transportation.png) collectrium-palette-color('background') right bottom no-repeat;
     @media only screen and (-webkit-min-device-pixel-ratio: 2), not all {
-      background: url(/images/presentations/living-style-guide-driven-development/auction-search-result/category-icons/Transportation@2x.png) collectrium-palette-color('background') right bottom no-repeat;
+      background: url(/assets/images/presentations/living-style-guide-driven-development/auction-search-result/category-icons/Transportation@2x.png) collectrium-palette-color('background') right bottom no-repeat;
         background-size: 243px 139px;
     }
   }
   &-catWatches {
-  background: url(/images/presentations/living-style-guide-driven-development/auction-search-result/category-icons/Watches.png) collectrium-palette-color('background') right bottom no-repeat;
+  background: url(/assets/images/presentations/living-style-guide-driven-development/auction-search-result/category-icons/Watches.png) collectrium-palette-color('background') right bottom no-repeat;
     @media only screen and (-webkit-min-device-pixel-ratio: 2), not all {
-      background: url(/images/presentations/living-style-guide-driven-development/auction-search-result/category-icons/Watches@2x.png) collectrium-palette-color('background') right bottom no-repeat;
+      background: url(/assets/images/presentations/living-style-guide-driven-development/auction-search-result/category-icons/Watches@2x.png) collectrium-palette-color('background') right bottom no-repeat;
         background-size: 169px 206px;
     }
   }
   &-catWines {
-  background: url(/images/presentations/living-style-guide-driven-development/auction-search-result/category-icons/Wines.png) collectrium-palette-color('background') right bottom no-repeat;
+  background: url(/assets/images/presentations/living-style-guide-driven-development/auction-search-result/category-icons/Wines.png) collectrium-palette-color('background') right bottom no-repeat;
     @media only screen and (-webkit-min-device-pixel-ratio: 2), not all {
-      background: url(/images/presentations/living-style-guide-driven-development/auction-search-result/category-icons/Wines@2x.png) collectrium-palette-color('background') right bottom no-repeat;
+      background: url(/assets/images/presentations/living-style-guide-driven-development/auction-search-result/category-icons/Wines@2x.png) collectrium-palette-color('background') right bottom no-repeat;
         background-size: 104px 205px;
     }
   }
