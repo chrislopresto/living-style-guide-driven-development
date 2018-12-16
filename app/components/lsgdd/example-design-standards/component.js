@@ -38,7 +38,7 @@ export default Ember.Component.extend({
   emberConfPaletteColors: function() {
     return Ember.A(
       Object.keys(emberConfPalette).map((k) => {
-        return this.get('EmberConfPalette')[k];
+        return emberConfPalette[k];
       })
     );
   }
