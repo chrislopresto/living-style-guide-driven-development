@@ -8,7 +8,7 @@
   width: 8.875em;
   height: 5.4375em;
   display: inline-block;
-  background-image: url("../images/emberconf2016/emberconf-logo.png");
+  background-image: url("../assets/images/emberconf2016/emberconf-logo.png");
   background-size: 100%;
   background-repeat: no-repeat;
   cursor: pointer;
@@ -19,7 +19,7 @@ all and (-o-min-device-pixel-ratio: 3 / 2),
 all and (min--moz-device-pixel-ratio: 1.5),
 all and (min-device-pixel-ratio: 1.5) {
   .TomsterLogo {
-    background-image: url("../images/emberconf2016/emberconf-logo@2x.png");
+    background-image: url("../assets/images/emberconf2016/emberconf-logo@2x.png");
     background-size: 100% auto;
   }
 }
@@ -38,7 +38,7 @@ all and (min-device-pixel-ratio: 1.5) {
   position: absolute;
   top: -.6em;
   left: 0.55em;
-  background-image: url("../images/emberconf2016/tomster.png");
+  background-image: url("../assets/images/emberconf2016/tomster.png");
   width: 2.5em;
   height: 2.5em;
   background-repeat: no-repeat;
@@ -69,7 +69,7 @@ all and (-o-min-device-pixel-ratio: 3 / 2),
 all and (min--moz-device-pixel-ratio: 1.5),
 all and (min-device-pixel-ratio: 1.5) {
   .TomsterLogo::after {
-    background-image: url("../images/emberconf2016/tomster@2x.png");
+    background-image: url("../assets/images/emberconf2016/tomster@2x.png");
     background-size: 100% auto;
   }
 }

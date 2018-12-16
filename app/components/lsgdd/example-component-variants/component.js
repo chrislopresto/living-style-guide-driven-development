@@ -142,7 +142,7 @@ export default Ember.Component.extend({
     "collectrium_category": "Jewelry",
     "artwork_assets": [
       {
-        "medium": "/images/presentations/living-style-guide-driven-development/auction-search-result/watch.jpg"
+        "medium": "/assets/images/presentations/living-style-guide-driven-development/auction-search-result/watch.jpg"
       }
     ],
     "sale_id": "568bf6c8c2a12663f7000000",
@@ -287,7 +287,7 @@ export default Ember.Component.extend({
     "collectrium_category": "Pictures, Drawings and Prints",
     "artwork_assets": [
       {
-        "medium": "/images/presentations/living-style-guide-driven-development/auction-search-result/painting.jpg"
+        "medium": "/assets/images/presentations/living-style-guide-driven-development/auction-search-result/painting.jpg"
       }
     ],
     "sale_id": "54553c42d97667ea645bd230",
@@ -432,7 +432,7 @@ export default Ember.Component.extend({
     "collectrium_category": "Wine & Spirits",
     "artwork_assets": [
       {
-        "medium": "/images/presentations/living-style-guide-driven-development/auction-search-result/wine.jpg"
+        "medium": "/assets/images/presentations/living-style-guide-driven-development/auction-search-result/wine.jpg"
       }
     ],
     "sale_id": "55f06c1db2fb3e3993000000",
@@ -560,7 +560,7 @@ export default Ember.Component.extend({
     "collectrium_category": "Transportation",
     "artwork_assets": [
       {
-        "medium": "/images/presentations/living-style-guide-driven-development/auction-search-result/transportation.jpg"
+        "medium": "/assets/images/presentations/living-style-guide-driven-development/auction-search-result/transportation.jpg"
       }
     ],
     "sale_id": "560d1c08b2fb3e4f50004685",
