@@ -52,6 +52,9 @@ module.exports = function(defaults) {
         'freestyle',
         'node_modules/mappy-breakpoints'
       ]
+    },
+    'ember-font-awesome': {
+      useScss: true
     }
   });
 

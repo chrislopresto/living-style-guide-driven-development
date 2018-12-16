@@ -256,6 +256,7 @@ $mappy-queries: () !default;
   @return $res;
 }
 
+@import 'font-awesome';
 @import 'reset';
 @import 'mixins';
 @import 'breakpoints';
@@ -264,7 +265,6 @@ $mappy-queries: () !default;
 @import 'ember-modal-dialog/ember-modal-structure';
 @import 'ember-modal-dialog/ember-modal-appearance';
 @import 'breakpoint/breakpoint';
-@import "bower_components/font-awesome/scss/font-awesome";
 @import 'material-colors';
 @import 'grid';
 @import 'colors';
