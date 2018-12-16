@@ -15,7 +15,7 @@
   },
   "repository": "",
   "engines": {
-    "node": ">= 0.10.0"
+    "node": "^4.5 || 6.* || >= 7.*"
   },
   "author": "",
   "license": "MIT",
@@ -27,7 +27,7 @@
     "broccoli-stew": "^0.3.4",
     "ember-ajax": "0.7.1",
     "ember-c3-shim": "0.0.2",
-    "ember-cli": "2.2.0-beta.3",
+    "ember-cli": "2.16.0",
     "ember-cli-accounting": "1.0.0",
     "ember-cli-app-version": "^1.0.0",
     "ember-cli-autoprefixer": "0.6.0",
@@ -52,7 +52,7 @@
     "ember-cli-nouislider": "0.7.0",
     "ember-cli-qunit": "^1.1.0",
     "ember-cli-release": "0.2.8",
-    "ember-cli-sass": "5.2.1",
+    "ember-cli-sass": "^6.2.0",
     "ember-cli-sri": "^2.0.0",
     "ember-cli-uglify": "^1.2.0",
     "ember-d3": "0.1.0",
@@ -66,7 +66,7 @@
     "ember-normalize": "0.0.9",
     "ember-remarkable": "2.1.0",
     "ember-resolver": "^2.0.3",
-    "ember-reveal-js": "chrislopresto/ember-reveal-js#fewer-themes",
+    "ember-reveal-js": "chrislopresto/ember-reveal-js#revealjs-upgrade",
     "ember-social": "0.2.0",
     "ember-tether": "0.3.0",
     "ember-truncate": "0.0.2",
@@ -77,7 +77,7 @@
     "markdown-code-highlighting": "0.0.6",
     "moment": "2.11.2",
     "moment-timezone": "0.5.0",
-    "node-sass": "sass/node-sass#ec18ef5e0993c8ea53ac247bdd74c471f238326c",
+    "node-sass": "3.5.1",
     "node-sass-json-importer": "^1.0.5"
   },
   "ember-addon": {
@@ -90,8 +90,8 @@
     "breakpoint-sass": "^2.6.1",
     "broccoli-static-compiler": "^0.2.2",
     "broccoli-unwatched-tree": "^0.1.1",
-    "cssgram": "una/CSSgram#0.1.6",
-    "ember-freestyle": "0.2.7",
+    "cssgram": "https://github.com/una/CSSgram/archive/0.1.6.tar.gz",
+    "ember-freestyle": "0.10.0",
     "suitcss-utils": "^1.0.0"
   }
 }

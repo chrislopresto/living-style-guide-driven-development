@@ -1,6 +1,7 @@
 /* global require, module */
 var EmberApp = require('ember-cli/lib/broccoli/ember-app');
 var jsonImporter = require('node-sass-json-importer');
+var nodeSass = require('node-sass');
 
 module.exports = function(defaults) {
   var app = new EmberApp(defaults, {
@@ -47,6 +48,7 @@ module.exports = function(defaults) {
       cascade: false
     },
     sassOptions: {
+      implementation: nodeSass,
       importer: jsonImporter,
       includePaths: [
         'freestyle',
