@@ -17,8 +17,7 @@
     {{#presentations/slide-column class="lsgdd-UsageSlide-usage"}}
       {{#freestyle-collection title='Education Items' defaultKey='rutgers' as |collection|}}
 
-        {{#freestyle-variant
-            collection=collection
+        {{#collection.variant
             key='rutgers'
             class='FreestyleCollection-variant'
         }}
@@ -37,9 +36,8 @@
               Bachelor of Music (piano) in <span class='major'>Jazz Studies</span>
             {{/resume-education-item}}
           {{/freestyle-usage}}
-        {{/freestyle-variant}}
-        {{#freestyle-variant
-            collection=collection
+        {{/collection.variant}}
+        {{#collection.variant
             key='monsters'
             class='FreestyleCollection-variant'
         }}
@@ -57,7 +55,7 @@
             Attended School of Scaring before being expelled
             {{/resume-education-item}}
           {{/freestyle-usage}}
-        {{/freestyle-variant}}
+        {{/collection.variant}}
       {{/freestyle-collection}}
     {{/presentations/slide-column}}
   {{/presentations/slide-body}}

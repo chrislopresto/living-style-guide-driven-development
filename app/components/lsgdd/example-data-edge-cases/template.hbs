@@ -1,17 +1,17 @@
 {{#freestyle-collection defaultKey='some' as |collection|}}
-  {{#freestyle-variant collection=collection key='some' class='lsgdd-ExampleDataEdgeCasesSlide-variant'}}
+  {{#collection.variant key='some' class='lsgdd-ExampleDataEdgeCasesSlide-variant'}}
     {{#freestyle-usage 'example-dataEdgeCases-some' title='Some' inline=(eq collection.activeKey 'all')}}
-      {{lsgdd/dashboard-tile label='Total Page Views' stat=683}}
+      {{lsgdd/dashboard-tile label='Total Page Views' stat='683'}}
     {{/freestyle-usage}}
-  {{/freestyle-variant}}
-  {{#freestyle-variant collection=collection key='lots' class='lsgdd-ExampleDataEdgeCasesSlide-variant'}}
+  {{/collection.variant}}
+  {{#collection.variant key='lots' class='lsgdd-ExampleDataEdgeCasesSlide-variant'}}
     {{#freestyle-usage 'example-dataEdgeCases-lots' title='Lots' inline=(eq collection.activeKey 'all')}}
-      {{lsgdd/dashboard-tile label='Total Page Views' stat=100000}}
+      {{lsgdd/dashboard-tile label='Total Page Views' stat='100,000'}}
     {{/freestyle-usage}}
-  {{/freestyle-variant}}
-  {{#freestyle-variant collection=collection key='wow' class='lsgdd-ExampleDataEdgeCasesSlide-variant'}}
+  {{/collection.variant}}
+  {{#collection.variant key='wow' class='lsgdd-ExampleDataEdgeCasesSlide-variant'}}
     {{#freestyle-usage 'example-dataEdgeCases-wow' title='Wow' inline=(eq collection.activeKey 'all')}}
-      {{lsgdd/dashboard-tile label='Total Page Views' stat=1425824324}}
+      {{lsgdd/dashboard-tile label='Total Page Views' stat='1,425,824,324'}}
     {{/freestyle-usage}}
-  {{/freestyle-variant}}
+  {{/collection.variant}}
 {{/freestyle-collection}}

@@ -7,9 +7,9 @@ export default Ember.Component.extend({
   color: 'teal',
   statSize: computed('stat', function() {
     let stat = this.get('stat');
-    if (stat < 100000) {
+    if (stat === '683') {
       return 'large';
-    } else if (stat < 100000000) {
+    } else if (stat === '100,000') {
       return 'medium';
     }
     return 'small';

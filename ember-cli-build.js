@@ -3,6 +3,7 @@ var EmberApp = require('ember-cli/lib/broccoli/ember-app');
 var jsonImporter = require('node-sass-json-importer');
 var nodeSass = require('node-sass');
 
+
 module.exports = function(defaults) {
   var app = new EmberApp(defaults, {
     // Add options here
@@ -36,11 +37,8 @@ module.exports = function(defaults) {
         ]
       }
     },
-    emberCliFontAwesome: {
-      useScss: true
-    },
     fingerprint: {
-      enabled: true,
+      // enabled: true,
       extensions: ['js', 'css', 'png', 'jpg', 'gif', 'map', 'woff', 'woff2', 'otf', 'eot', 'ttf', 'svg', 'swf', 'ico']
     },
     autoprefixer: {
@@ -49,7 +47,7 @@ module.exports = function(defaults) {
     },
     sassOptions: {
       implementation: nodeSass,
-      importer: jsonImporter,
+      importer: jsonImporter(),
       includePaths: [
         'freestyle',
         'node_modules/mappy-breakpoints'
@@ -70,17 +68,14 @@ module.exports = function(defaults) {
   // please specify an object with the list of modules as keys
   // along with the exports of each module as its value.
 
-  app.import('bower_components/highlightjs/styles/tomorrow-night-eighties.css');
-  app.import('bower_components/remarkable/dist/remarkable.js');
-
   app.import('vendor/cssgram/cssgram.scss');
 
   app.import('vendor/yapp-keen-shim.js');
 
-  if (app.env === 'development') {
-    app.options.fingerprint.prepend = 'http://localhost:7148/';
-    app.options.fingerprint.customHash = null;
-  }
+  // if (app.env === 'development') {
+  //   app.options.fingerprint.prepend = 'http://localhost:7148/';
+  //   app.options.fingerprint.customHash = null;
+  // }
 
   if (app.env === 'production') {
     app.options.fingerprint.prepend = 'https://living-style-guide-driven-development-assets.s3.amazonaws.com/';

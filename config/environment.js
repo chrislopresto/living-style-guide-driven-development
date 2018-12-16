@@ -1,11 +1,11 @@
-/* jshint node: true */
+/* eslint-env node */
 
 module.exports = function(environment) {
   var ENV = {
     modulePrefix: 'living-style-guide-driven-development',
     environment: environment,
-    baseURL: '/',
-    locationType: 'auto',
+    rootURL: '/',
+    locationType: 'hash',
     moment: {
       includeTimezone: '2010-2020'
     },
@@ -43,7 +43,6 @@ module.exports = function(environment) {
 
   if (environment === 'test') {
     // Testem prefers this...
-    ENV.baseURL = '/';
     ENV.locationType = 'none';
 
     // keep test console output quieter
@@ -51,6 +50,10 @@ module.exports = function(environment) {
     ENV.APP.LOG_VIEW_LOOKUPS = false;
 
     ENV.APP.rootElement = '#ember-testing';
+  }
+
+  if (environment === 'production') {
+    ENV.rootURL = 'https://living-style-guide-driven-development-assets.s3.amazonaws.com/';
   }
 
   return ENV;

@@ -1,6 +1,5 @@
 {{#freestyle-collection defaultKey='100px' class="lsgdd-ExampleEphemeralSlide-collection" as |collection|}}
-  {{#freestyle-variant
-    collection=collection
+  {{#collection.variant
     key='normal'
   }}
     {{#freestyle-usage 'monegraph-loaders' title='Monegraph Loaders'}}
@@ -12,9 +11,8 @@
       {{lsgdd/monegraph-loader class="medium-gray"}}
       {{lsgdd/monegraph-loader class="medium-light-gray"}}
     {{/freestyle-usage}}
-  {{/freestyle-variant}}
-  {{#freestyle-variant
-    collection=collection
+  {{/collection.variant}}
+  {{#collection.variant
     key='icon'
   }}
     {{#freestyle-usage 'monegraph-loaders-icon' title='Monegraph Loaders'}}
@@ -26,24 +24,22 @@
       {{lsgdd/monegraph-loader showIcon=true class="medium-gray"}}
       {{lsgdd/monegraph-loader showIcon=true class="medium-light-gray"}}
     {{/freestyle-usage}}
-  {{/freestyle-variant}}
-  {{#freestyle-variant
-    collection=collection
+  {{/collection.variant}}
+  {{#collection.variant
     key='100px'
   }}
     {{#freestyle-usage 'monegraph-loaders-100px' title="Loader - With Icon"}}
       {{lsgdd/monegraph-loader class="medium-light-gray" size="100px" showIcon=true}}
       {{lsgdd/monegraph-loader class="magenta" size="100px" showIcon=true}}
     {{/freestyle-usage}}
-  {{/freestyle-variant}}
-  {{#freestyle-variant
-    collection=collection
+  {{/collection.variant}}
+  {{#collection.variant
     key='dev'
   }}
     {{#freestyle-usage 'monegraph-loaders-large' title="Loader - Size: 300px, Duration: 3s"}}
       {{lsgdd/monegraph-loader duration="3s" size="300px" class="magenta" showIcon=true}}
     {{/freestyle-usage}}
-  {{/freestyle-variant}}
+  {{/collection.variant}}
 {{/freestyle-collection}}
 {{#freestyle-note 'monegraph-loaders:notes'}}
 The monegraph-loader component can be used with the following colors in the

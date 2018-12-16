@@ -20,6 +20,76 @@ function hasMultipleSeries(dataset) {
   return dataset.matrix[0].length > 2;
 }
 
+const yappChartPalette = {
+  "YappChartPalette": {
+    "blue": {
+      "name": "blue",
+      "base": "#569add"
+    },
+    "green": {
+      "name": "green",
+      "base": "#69c45c"
+    },
+    "sunkist-orange": {
+      "name": "sunkist-orange",
+      "base": "#ff8630"
+    },
+    "peony": {
+      "name": "peony",
+      "base": "#c977bc"
+    },
+    "marigold": {
+      "name": "marigold",
+      "base": "#ffbf65"
+    },
+    "berry": {
+      "name": "berry",
+      "base": "#f2647b"
+    },
+    "emerald": {
+      "name": "emerald",
+      "base": "#1ab195"
+    },
+    "elephant": {
+      "name": "elephant",
+      "base": "#dfdfdf"
+    },
+    "cornflower": {
+      "name": "cornflower",
+      "base": "#bbd6f6"
+    },
+    "dusty-celery": {
+      "name": "dusty-celery",
+      "base": "#b8edb9"
+    },
+    "sherbert": {
+      "name": "sherbert",
+      "base": "#ffcfa5"
+    },
+    "bubblegum": {
+      "name": "bubblegum",
+      "base": "#ffcbf1"
+    },
+    "bellini": {
+      "name": "bellini",
+      "base": "#ffe1b7"
+    },
+    "blush": {
+      "name": "blush",
+      "base": "#ffb2c7"
+    },
+    "mint": {
+      "name": "mint",
+      "base": "#96ebce"
+    },
+    "gray": {
+      "name": "gray",
+      "base": "#a2a2a2"
+    }
+  }
+}
+
+
 export default Ember.Component.extend({
   freestyle: inject.service('ember-freestyle'),
   classNames: ['KeenChart'],
@@ -65,16 +135,16 @@ export default Ember.Component.extend({
     this.get('dataSource').fetch().then((dataset) => {
       this.renderChart(dataset);
     }).catch((err) => {
-      console.error('keen-chart: error', err);
+      // console.error('keen-chart: error', err);
       this.set('error', err);
     }).finally(() => {
       this.set('showingSpinner', false);
     });
   },
 
-  yappChartPalette: computed.alias('freestyle.yapp-chart-palette.YappChartPalette'),
+  // yappChartPalette: computed.alias('freestyle.yapp-chart-palette.YappChartPalette'),
   colors: computed('yappChartPalette', function() {
-    let yappChartPalette = this.get('yappChartPalette');
+    // let yappChartPalette = this.get('yappChartPalette');
     return Object.keys(yappChartPalette).map((k) => {
       return yappChartPalette[k].base;
     });
